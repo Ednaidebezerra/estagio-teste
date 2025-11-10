@@ -7,11 +7,11 @@
 <div class="row">
     <aside class="column">
         <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Categoria'), ['action' => 'edit', $categoria->id], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Categoria'), ['action' => 'delete', $categoria->id], ['confirm' => __('Are you sure you want to delete # {0}?', $categoria->id), 'class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('List Categorias'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Categoria'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <h4 class="heading"><?= __('Ações') ?></h4>
+            <?= $this->Html->link(__('Editar Categoria'), ['action' => 'edit', $categoria->id], ['class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(__('Excluir Categoria'), ['action' => 'delete', $categoria->id], ['confirm' => __('Tem certeza de que deseja apagar esse registro # {0}?', $categoria->id), 'class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Listar Categorias'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Nova Categoria'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
@@ -27,28 +27,28 @@
                     <td><?= $this->Number->format($categoria->id) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Created') ?></th>
+                    <th><?= __('Criado') ?></th>
                     <td><?= h($categoria->created) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Modified') ?></th>
+                    <th><?= __('Modificado') ?></th>
                     <td><?= h($categoria->modified) ?></td>
                 </tr>
             </table>
             <div class="related">
-                <h4><?= __('Related Produtos') ?></h4>
+                <h4><?= __('Produtos Relacionados') ?></h4>
                 <?php if (!empty($categoria->produtos)) : ?>
                 <div class="table-responsive">
                     <table>
                         <tr>
                             <th><?= __('Id') ?></th>
                             <th><?= __('Nome') ?></th>
-                            <th><?= __('Descricao') ?></th>
-                            <th><?= __('Preco') ?></th>
+                            <th><?= __('Descrição') ?></th>
+                            <th><?= __('Preço') ?></th>
                             <th><?= __('Categoria Id') ?></th>
-                            <th><?= __('Created') ?></th>
-                            <th><?= __('Modified') ?></th>
-                            <th class="actions"><?= __('Actions') ?></th>
+                            <th><?= __('Criado') ?></th>
+                            <th><?= __('Modificado') ?></th>
+                            <th class="actions"><?= __('Ações') ?></th>
                         </tr>
                         <?php foreach ($categoria->produtos as $produtos) : ?>
                         <tr>
@@ -60,9 +60,9 @@
                             <td><?= h($produtos->created) ?></td>
                             <td><?= h($produtos->modified) ?></td>
                             <td class="actions">
-                                <?= $this->Html->link(__('View'), ['controller' => 'Produtos', 'action' => 'view', $produtos->id]) ?>
-                                <?= $this->Html->link(__('Edit'), ['controller' => 'Produtos', 'action' => 'edit', $produtos->id]) ?>
-                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Produtos', 'action' => 'delete', $produtos->id], ['confirm' => __('Are you sure you want to delete # {0}?', $produtos->id)]) ?>
+                                <?= $this->Html->link(__('Ver'), ['controller' => 'Produtos', 'action' => 'view', $produtos->id]) ?>
+                                <?= $this->Html->link(__('Editar'), ['controller' => 'Produtos', 'action' => 'edit', $produtos->id]) ?>
+                                <?= $this->Form->postLink(__('Excluir'), ['controller' => 'Produtos', 'action' => 'delete', $produtos->id], ['confirm' => __('Tem certeza de que deseja excluir # {0}?', $produtos->id)]) ?>
                             </td>
                         </tr>
                         <?php endforeach; ?>

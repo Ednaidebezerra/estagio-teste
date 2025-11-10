@@ -54,6 +54,9 @@
     };
     new Chart(ctx, {
         type: 'pie',
-        data: data
+        data: data,
+        options: {
+            responsive: false,
+        }
     });
 </script>

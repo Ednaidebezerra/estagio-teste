@@ -12,7 +12,7 @@
             <?= $this->Form->postLink(
                 __('Apagar'),
                 ['action' => 'delete', $produto->id],
-                ['confirm' => __('Tem certeza que deseja apagar # {0}?', $produto->id), 'class' => 'side-nav-item']
+                ['confirm' => __('Tem certeza que deseja apagar esse registro # {0}?', $produto->id), 'class' => 'side-nav-item']
             ) ?>
             <?= $this->Html->link(__('Listar Produtos'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
@@ -24,8 +24,8 @@
                 <legend><?= __('Editar Produto') ?></legend>
                 <?php
                     echo $this->Form->control('nome');
-                    echo $this->Form->control('descrição');
-                    echo $this->Form->control('preço');
+                    echo $this->Form->control('descricao');
+                    echo $this->Form->control('preco');
                     echo $this->Form->control('categoria_id', ['options' => $categorias]);
                 ?>
             </fieldset>

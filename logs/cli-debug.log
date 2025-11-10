@@ -278,3 +278,43 @@ Cake\Console\CommandRunner->runCommand() C:\xampp_new\htdocs\inventario\vendor\c
 Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
 [main]
 
+2025-11-10 02:24:22 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Categorias = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 123
+Cake\Controller\Controller->loadModel() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-10 17:20:29 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Categorias = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Core\functions.php, line 318
+C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 123
+Cake\Controller\Controller->loadModel() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+

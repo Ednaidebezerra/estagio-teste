@@ -16,7 +16,7 @@
         <div class="produtos form content">
             <?= $this->Form->create($produto) ?>
             <fieldset>
-                <legend><?= __('Add Produto') ?></legend>
+                <legend><?= __('Adicionar Produto') ?></legend>
                 <?php
                     echo $this->Form->control('nome');
                     echo $this->Form->control('descricao');

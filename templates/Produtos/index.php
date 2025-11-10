@@ -12,11 +12,11 @@
             <thead>
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
-                    <th><?= $this->Paginator->sort('nome') ?></th>
-                    <th><?= $this->Paginator->sort('preço') ?></th>
-                    <th><?= $this->Paginator->sort('categoria_id') ?></th>
-                    <th><?= $this->Paginator->sort('criação') ?></th>
-                    <th><?= $this->Paginator->sort('modificação') ?></th>
+                    <th><?= $this->Paginator->sort('Nome') ?></th>
+                    <th><?= $this->Paginator->sort('Preço') ?></th>
+                    <th><?= $this->Paginator->sort('Categoria') ?></th>
+                    <th><?= $this->Paginator->sort('Criação') ?></th>
+                    <th><?= $this->Paginator->sort('Modificação') ?></th>
                     <th class="actions"><?= __('Ações') ?></th>
                 </tr>
             </thead>
