@@ -1,0 +1,27 @@
+# CakePHP 4.x - Arquivos que não devem ir para o GitHub
+
+# Dependências (recriadas via composer install)
+vendor/
+
+# Cache e logs
+tmp/
+logs/
+
+# Configurações locais e senhas
+config/app_local.php
+.env
+
+# Uploads (opcional)
+webroot/files/
+webroot/uploads/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do IDE/Editor
+.idea/
+.vscode/
+*.bak
+*.swp
+

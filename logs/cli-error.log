@@ -1,0 +1,444 @@
+2025-11-06 21:36:00 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver.php on line 144
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'inventario\'',
+)
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:165
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:217
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Connection.php:542
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:87
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver.php on line 136
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver.php:136
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver.php:142
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:165
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:217
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Connection.php:542
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:87
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:37:09 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:39:58 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1932 Table 'inventario.produtos' doesn't exist in engine in C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1932 Table 'inventario.produtos' doesn't exist in engine in C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Connection.php:414
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Connection.php:417
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\ORM\Table.php:528
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\inventario\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:41:08 error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1932 Table 'inventario.phinxlog' doesn't exist in engine in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 226
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:226
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:247
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:508
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:380
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:136
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:46:37 error: [InvalidArgumentException] There was a problem creating the schema table: SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php on line 317
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 192
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:192
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:358
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Plan\Plan.php:146
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:719
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:615
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:688
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php:315
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:47:26 error: [InvalidArgumentException] There was a problem creating the schema table: SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php on line 317
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 192
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:192
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:358
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Plan\Plan.php:146
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:719
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:615
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:688
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php:315
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-06 21:47:34 error: [InvalidArgumentException] There was a problem creating the schema table: SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php on line 317
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1813 Tablespace for table '`inventario`.`phinxlog`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 192
+Stack Trace:
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:192
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:358
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Plan\Plan.php:146
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:719
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:615
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:688
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AbstractAdapter.php:315
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:133
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:160
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 14:27:23 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 17:10:52 warning: Undefined variable $routes
+Trace:
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() C:\xampp_new\htdocs\inventario\config\routes.php, line 84
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 201
+Cake\Http\BaseApplication->routes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-09 17:10:52 error: [Error] Call to a member function connect() on null in C:\xampp_new\htdocs\inventario\config\routes.php on line 59
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:947
+- C:\xampp_new\htdocs\inventario\config\routes.php:84
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php:201
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:397
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 20:08:11 warning: Undefined variable $routes
+Trace:
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() C:\xampp_new\htdocs\inventario\config\routes.php, line 84
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 201
+Cake\Http\BaseApplication->routes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-09 20:08:11 error: [Error] Call to a member function connect() on null in C:\xampp_new\htdocs\inventario\config\routes.php on line 59
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:947
+- C:\xampp_new\htdocs\inventario\config\routes.php:84
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php:201
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:397
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 20:10:14 warning: Undefined variable $routes
+Trace:
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() C:\xampp_new\htdocs\inventario\config\routes.php, line 84
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 201
+Cake\Http\BaseApplication->routes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-09 20:10:14 error: [Error] Call to a member function connect() on null in C:\xampp_new\htdocs\inventario\config\routes.php on line 59
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:947
+- C:\xampp_new\htdocs\inventario\config\routes.php:84
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php:201
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:397
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 23:34:41 warning: Undefined variable $routes
+Trace:
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() C:\xampp_new\htdocs\inventario\config\routes.php, line 86
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 201
+Cake\Http\BaseApplication->routes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-09 23:34:41 error: [Error] Call to a member function connect() on null in C:\xampp_new\htdocs\inventario\config\routes.php on line 67
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:947
+- C:\xampp_new\htdocs\inventario\config\routes.php:86
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php:201
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:397
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+2025-11-09 23:35:02 warning: Undefined variable $routes
+Trace:
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() C:\xampp_new\htdocs\inventario\config\routes.php, line 86
+Cake\Http\BaseApplication->{closure}() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 201
+Cake\Http\BaseApplication->routes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() C:\xampp_new\htdocs\inventario\bin\cake.php, line 12
+[main]
+
+2025-11-09 23:35:02 error: [Error] Call to a member function connect() on null in C:\xampp_new\htdocs\inventario\config\routes.php on line 67
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:947
+- C:\xampp_new\htdocs\inventario\config\routes.php:86
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Http\BaseApplication.php:201
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:397
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+

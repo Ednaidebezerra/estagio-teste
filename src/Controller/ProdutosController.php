@@ -47,7 +47,7 @@ class ProdutosController extends AppController
      *
      * @return \Cake\Http\Response|null|void Redirects on successful add, renders view otherwise.
      */
-    public function add()
+     public function add()
     {
         $produto = $this->Produtos->newEmptyEntity();
         if ($this->request->is('post')) {
@@ -62,7 +62,7 @@ class ProdutosController extends AppController
         $categorias = $this->Produtos->Categorias->find('list', ['limit' => 200])->all();
         $this->set(compact('produto', 'categorias'));
     }
-
+     
     /**
      * Edit method
      *

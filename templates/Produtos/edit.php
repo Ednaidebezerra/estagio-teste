@@ -12,19 +12,19 @@
             <?= $this->Form->postLink(
                 __('Apagar'),
                 ['action' => 'delete', $produto->id],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $produto->id), 'class' => 'side-nav-item']
+                ['confirm' => __('Tem certeza que deseja apagar # {0}?', $produto->id), 'class' => 'side-nav-item']
             ) ?>
-            <?= $this->Html->link(__('Lista de Produtos'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Listar Produtos'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
         <div class="produtos form content">
             <?= $this->Form->create($produto) ?>
             <fieldset>
-                <legend><?= __('Edit Produto') ?></legend>
+                <legend><?= __('Editar Produto') ?></legend>
                 <?php
                     echo $this->Form->control('nome');
-                    echo $this->Form->control('descricao');
+                    echo $this->Form->control('descrição');
                     echo $this->Form->control('preço');
                     echo $this->Form->control('categoria_id', ['options' => $categorias]);
                 ?>

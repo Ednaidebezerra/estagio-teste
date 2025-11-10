@@ -19,16 +19,16 @@
             <h3><?= h($produto->nome) ?></h3>
             <table>
                 <tr>
+                    <th><?= __('Id') ?></th>
+                    <td><?= $this->Number->format($produto->id) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Nome') ?></th>
                     <td><?= h($produto->nome) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Categoria') ?></th>
                     <td><?= $produto->has('categoria') ? $this->Html->link($produto->categoria->nome, ['controller' => 'Categorias', 'action' => 'view', $produto->categoria->id]) : '' ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($produto->id) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Preço') ?></th>
