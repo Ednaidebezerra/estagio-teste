@@ -442,3 +442,48 @@ Stack Trace:
 - C:\xampp_new\htdocs\inventario\bin\cake.php:12
 - [main]:
 
+2025-11-12 18:47:49 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 98
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'inventario' in C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 86
+Stack Trace:
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:86
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php:158
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php:163
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php:469
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\CakeAdapter.php:51
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:83
+- C:\xampp_new\htdocs\inventario\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php:64
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\CommandTrait.php:37
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\Phinx\Migrate.php:85
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Command\Command.php:291
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:1014
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:301
+- C:\xampp_new\htdocs\inventario\vendor\symfony\console\Application.php:171
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:126
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\migrations\src\Command\MigrationsCommand.php:198
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp_new\htdocs\inventario\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp_new\htdocs\inventario\bin\cake.php:12
+- [main]:
+

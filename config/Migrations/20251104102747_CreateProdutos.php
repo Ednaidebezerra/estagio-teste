@@ -23,12 +23,12 @@ class CreateProdutos extends AbstractMigration
         ]);
 
 
-        $table->addColumn('descrição', 'text', [
+        $table->addColumn('descricao', 'text', [
             'default' => null,
             'null' => false,
         ]);
 
-        $table->addColumn('preço', 'decimal', [
+        $table->addColumn('preco', 'decimal', [
             'default' => null,
             'null' => false,
             'precision' => 5,
@@ -47,12 +47,12 @@ class CreateProdutos extends AbstractMigration
             ['delete'=> 'CASCADE', 'update'=> 'CASCADE']
         );
 
-        $table->addColumn('criado', 'datetime', [
+        $table->addColumn('created', 'datetime', [
             'default' => null,
             'null' => false,
         ]);
-        
-        $table->addColumn('modificado', 'datetime', [
+
+        $table->addColumn('modified', 'datetime', [
             'default' => null,
             'null' => false,
         ]);
