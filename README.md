@@ -3,6 +3,17 @@
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+## Routes of the views
+
+```bash
+http://localhost/inventario/categorias
+```
+```bash
+http://localhost/inventario/produtos
+```
+```bash
+http://localhost/inventario/dashboard
+```
 
 A skeleton for creating applications with [CakePHP](https://cakephp.org) 4.x.
 
